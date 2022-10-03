@@ -1,5 +1,7 @@
+package fizzbuzzeverything;
+
 public class Main {
-    static StringBuilder output = new StringBuilder();
+    static final StringBuilder output = new StringBuilder();
 
     public static void main(String[] args) {
         for (int i = 1; i <= 100000; i++) {
