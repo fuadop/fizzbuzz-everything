@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.23)
-project(c C)
+project(fizzbuzz-everything C)
+
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(c
+add_executable(fizzbuzz-everything
         main.c)
